@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Grid Table Enhancer",
+  "version": "1.0",
+
+  "permissions": ["activeTab"],
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": [
+        "gridjs/mermaid.min.css",
+        "style.css"
+      ],
+      "js": [
+        "gridjs/gridjs.production.min.js",
+        "xlsx/xlsx.full.min.js",
+        "content.js"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+.grid-toolbar button {
+  border-radius: 6px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(107, 114, 128);
+  cursor: default;
+  user-select: none;
+  border-width: 1px medium 1px 1px;
+  border-style: solid none solid solid;
+  border-color: rgb(210, 214, 220) currentcolor rgb(210, 214, 220)
+    rgb(210, 214, 220);
+  border-image: none;
+  outline: none;
+  padding: 5px 14px;
+}
